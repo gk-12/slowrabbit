@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * 
 {
     margin: 0;
@@ -101,25 +105,25 @@ ul > li
     padding-top: 10px;
 }
 
-#list-page #title a:hover
+.list-page .title a:hover
 {
     color: #5BADf0;
 }
 
-#list-page
+.list-page
 {
     max-width: 580px;
     margin: 0 auto;
     padding: 0 24px;
 }
 
-#list-page #title a
+.list-page #title a
 {
     color:#404040;
     display: block;
 }
 
-#list-page #title
+.list-page .title
 {
     width: 80%;
     font-weight: 400;
@@ -130,22 +134,22 @@ ul > li
     text-align: right;
 }
 
-#list-page
+.list-page
 {
     padding-top: 20px;
 }
 
-#title > a
+.title > a
 {
     text-decoration: none;
 }
 
-#list-page .item
+.list-page .item
 {
     margin: 12px 0;;
 }
 
-#list-page .date
+.list-page .date
 {
     width: 20%;
     float: right;
@@ -155,7 +159,7 @@ ul > li
     color: #bbb;
 }
 
-#footer
+.footer
 {
     text-align: center;
     margin: 100px auto;
@@ -164,14 +168,14 @@ ul > li
 
 }
 
-#social
+.social
 {
     display: flex;
     gap: 1%;
     justify-content: center;
 }
 
-#footer .copyright
+.footer .copyright
 {
     margin: 20px auto;
     font-size: 15px;
