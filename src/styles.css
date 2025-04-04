@@ -137,6 +137,8 @@ ul > li
 .list-page
 {
     padding-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .title > a
