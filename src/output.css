@@ -930,7 +930,6 @@ ul > li
 {
   transform: rotate(-180deg);
   padding: 5px 10px;
-  background: #fff;
   position: relative;
   margin-right: 10px;
 }
