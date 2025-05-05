@@ -25,7 +25,9 @@ body
 .nav-bar 
 {
     width: 100%;    
-}
+    top: 0;
+
+    }
 
 
 nav.nav-bar a
@@ -46,6 +48,7 @@ ul
     display: flex;
     justify-content: flex-start;
     transform: rotate(180deg);
+    right: 0;
 }
 
 ul > li
