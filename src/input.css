@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-primary: #221F1F;
+  --color-secondary: #f1f1f1;
+  --color-date: #bbb;
+  --color-nred: #E50914;
+}
+
+
+@media(screen and (min-width: 640px)) {
+  @layer base {
+    
+  }
+}
