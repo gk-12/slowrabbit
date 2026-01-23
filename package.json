@@ -1,18 +1,30 @@
 {
   "name": "portfolio",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/gk-12/slowrabbit#readme",
+  "bugs": {
+    "url": "https://github.com/gk-12/slowrabbit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gk-12/slowrabbit.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "MyComponent.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^7.2.4"
-  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
   }
 }
